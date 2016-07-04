@@ -1,0 +1,76 @@
+#header{
+  display: none;
+}
+.content-inner {
+ display: none;
+}
+#footer {
+  display: none;
+}
+#header-wrapper{
+}
+
+input{
+  width: 60px;
+  height: 50px;
+  outline: black;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: black;
+  color: black;
+}
+
+
+#age-verification-content{
+  width: 210px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+
+#button button{
+    -webkit-appearance: none;
+    background-color: transparent;
+    border-color: black;
+    border: 2px solid;
+    color: black;
+    width: 206px;
+    height: 40px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: background-color .3s;
+}
+
+/*#button button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}*/
+
+#button{
+    margin-top: 10px;
+}
+
+#header-wrapper > div.title-desc-wrapper.has-main-image{
+    height: 100vh;
+}
+
+::-webkit-input-placeholder {
+ color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ color: black;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ color: black;
+}
+
+:-ms-input-placeholder {
+ color: black;
+}
